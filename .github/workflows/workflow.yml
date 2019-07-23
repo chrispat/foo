@@ -17,6 +17,8 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
    
-    - run: env
+    - name: Dump env
+      run: env
    
-    - run: ${{ toJson(github) }}
+    - name: Dump payload
+      run: ${{ toJson(github) }}
