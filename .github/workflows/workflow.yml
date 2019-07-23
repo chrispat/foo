@@ -1,10 +1,9 @@
-on:
+on: 
   pull_request:
     branches:
-    - master
+      - master
 
-name: Hello Workflow
-
+name: 'Hello Workflow'
 
 jobs:
 
