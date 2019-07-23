@@ -5,8 +5,7 @@ on:
 
 jobs:
 
-  run:
-    name: Run
+  build:
     runs-on: ubuntu-latest
     actions:
 
