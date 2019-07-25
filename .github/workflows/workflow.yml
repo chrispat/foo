@@ -22,5 +22,5 @@ jobs:
     - run: |
         env | grep GITHUB
         
-#    - run: echo "Is Fork"
-#      if: github.event.pull_request.base.repo != github.event.pull_request.head.repo
+    - run: echo "Is Fork"
+      if: github.event.pull_request.base.repo != github.event.pull_request.head.repo
