@@ -1,0 +1,4 @@
+lang: generic
+
+script:
+- echo $(tty)
